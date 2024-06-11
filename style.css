@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: wheat;
-}
 .container{
 
     height: 641px;
@@ -22,6 +19,8 @@ body{
     animation-timing-function: linear;
     animation-iteration-count: infinite; */
     animation: ani 8s linear infinite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+
     
 }
 
