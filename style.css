@@ -1,0 +1,76 @@
+ *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: wheat;
+}
+.container{
+
+    height: 641px;
+    width: 80%;
+    background-image: url("img0.png");
+    background-position: center center ;
+    background-size: 100%;
+    background-repeat:no-repeat ;
+    margin-left: 130px;
+    margin-top: 50px;
+    /* animation-name: ani;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    animation: ani 8s linear infinite;
+    
+}
+
+
+
+@keyframes ani{
+
+    0%{background-image: url(img0.png);}
+    35%{background-image: url(img2.png);}
+    75%{background-image: url(img3.png);}
+    90%{background-image: url(img1.jpg);}
+} 
+
+
+
+/* Responsive Design */
+
+/* For 1440px width */
+@media (max-width: 1440px) {
+    .container {
+        height: 481px; /* Adjust height for smaller screens */
+
+    }
+}
+
+/* For 1024px width */
+@media (max-width: 1024px) {
+    .container {
+        height: 361px; /* Adjust height for smaller screens */
+        margin-top: 130px;
+    }
+}
+
+/* For 768px width */
+@media (max-width: 768px) {
+    .container {
+        height: 271px; /* Adjust height for smaller screens */
+        margin-left: 75px;
+        
+        
+    }
+}
+
+/* For 320px width */
+@media (max-width: 320px) {
+    .container {
+        height: 160px; /* Adjust height for smaller screens */
+        margin-left:32px;
+
+        
+    }
+}
